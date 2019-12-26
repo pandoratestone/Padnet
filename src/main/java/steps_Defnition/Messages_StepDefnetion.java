@@ -8,16 +8,16 @@ public class Messages_StepDefnetion {
 	
 	
 	
-	@Given("^$")
+	@Given("^Send messgae from userA$")
 	public void givv(){
 		System.out.println("----------------");
 	}
-	@When("^Send message$")
+	@When("^Receiver will receive message$")
 	public void sentMessage(){
 		System.out.println("*************");
 	}
 	
-	@Then("^Recive message$") 
+	@Then("^Received message$") 
 	public void receivmessage(){
 	   
 	 System.out.println("RECCCCCCCCCCCCCC");  
