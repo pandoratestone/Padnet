@@ -11,6 +11,7 @@ public class Messages_StepDefnetion {
 	@Given("^Send messgae from userA$")
 	public void givv(){
 		System.out.println("----------------");
+		System.out.println("*************");
 	}
 	@When("^Receiver will receive message$")
 	public void sentMessage(){
