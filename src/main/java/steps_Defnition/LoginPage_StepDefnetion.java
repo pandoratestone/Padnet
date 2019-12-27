@@ -64,8 +64,10 @@ public class LoginPage_StepDefnetion {
     public void Reset_the_credential() throws Throwable 							
     {    		
     	driver.quit();
+		System.out.println("Browser Kill Done....");		
     	Runtime.getRuntime().exec("Taskkill /IM Chromedriver.exe /f");
-        System.out.println("This step click on the Reset button.");					
+        System.out.println("This step click on the Reset button.");		
+					
     }	
 
    

@@ -61,6 +61,7 @@ public class Second_Login{
 	    @Then("^close new window and switch to main window second$")					
 	    public void tearDown() throws Throwable 							
 	    {    		
+		    System.out.println("************************************");	
 	    	driver.quit();
 	    	Runtime.getRuntime().exec("Taskkill /IM Chromedriver.exe /f");
 	        System.out.println("####################################");					

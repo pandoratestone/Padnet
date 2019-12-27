@@ -16,12 +16,16 @@ public class Messages_StepDefnetion {
 	@When("^Receiver will receive message$")
 	public void sentMessage(){
 		System.out.println("*************");
+		System.out.println("----------------");
+		System.out.println("*************");
 	}
 	
 	@Then("^Received message$") 
 	public void receivmessage(){
 	   
 	 System.out.println("RECCCCCCCCCCCCCC");  
+	 System.out.println("----------------");
+		System.out.println("*************");
 	}
 
 }
